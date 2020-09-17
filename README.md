@@ -11,7 +11,7 @@ The Code Card avatar serverless function transforms your Code Card into an aweso
 
 ![alt text](images/codecard-avatar-photo-v0.02.png "Code Card Custom Avatar")
 
-The function is designed to assemble and display a bitmap image which includes a unique card-owner identicon that's generated on-the-fly via a 3rd party API, and is based on a hash of the card owner's name.
+The function is designed to assemble and display a bitmap image which includes a unique card-owner identicon that's generated on-the-fly via a 3rd party API. Generation of the identicon avatar is based on a hash of the card owner's name.
 
 Apart from turning your Code Card into a personalized id-badge, the avatar function is a great reference for building an Oracle function which when invoked coordinates a number of interactions with a range of OCI services, external services, and the Code Card IoT device itself.
 
@@ -31,7 +31,7 @@ In reference to the workflow illustration, there are two main elements to the wo
 2. During the "Run" phase, the avatar function is then invoked by the Code Card via API Gateway, which initiates a a series of interactions with:
 
    - the Code Card designer APEX backend
-   - the identicon generation web service
+   - the identicon generation web service (http://identicon-1132.appspot.com)
    - OCI object storage
 
 Next, with the gathered artefacts the function proceeds to assemble the id-badge custom bitmap, and directs the Code Card to download and display the image via the object storage service.
