@@ -7,13 +7,13 @@
 
 The Oracle Code Card is a Wi-Fi-enabled IoT device with an e-paper display that's able to interact with remote API endpoints, and retrieve and display content from cloud platforms such as Oracle Cloud Infrastructure. The Code Card runs on an [ESP8266](https://en.wikipedia.org/wiki/ESP8266) Wi-Fi microcontroller. 
 
-The Code Card avatar function transforms the Code Card into a custom, personalized id-badge!  
+The Code Card avatar serverless function transforms your Code Card into an awesome, personalized id-badge!  
 
 ![alt text](images/codecard-avatar-photo-v0.02.png "Code Card Custom Avatar")
 
 The function is designed to assemble and display a bitmap image which includes a unique card-owner identicon that's generated on-the-fly via a 3rd party API, and is based on a hash of the card owner's name.
 
-Apart from turning your Code Card into an awesome, personalised id-badge - and it's a great reference for building an Oracle function that interracts with a range of OCI services, external services, and the IoT device.
+Apart from turning your Code Card into a personalized id-badge - and it's a great reference for building an Oracle function that interracts with a range of OCI services, external services, and the Code Card IoT device.
 
 ## Overview
 
