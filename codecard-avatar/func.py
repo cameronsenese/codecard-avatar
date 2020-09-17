@@ -9,7 +9,6 @@ import oci.object_storage
 import subprocess
 
 from subprocess import Popen
-from PIL import Image
 from fdk import response
 
 # general configuration..
