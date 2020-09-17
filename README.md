@@ -7,7 +7,7 @@
 
 The Oracle Code Card is a Wi-Fi-enabled IoT device with an e-paper display that's able to interact with remote API endpoints, and retrieve and display content from cloud platforms such as Oracle Cloud Infrastructure. The Code Card runs on an [ESP8266](https://en.wikipedia.org/wiki/ESP8266) Wi-Fi microcontroller. 
 
-The Code Card avatar function transforms the Code Card into a custom, persanolised id-badge!  
+The Code Card avatar function transforms the Code Card into a custom, personalized id-badge!  
 
 ![alt text](images/codecard-avatar-photo-v0.02.png "Code Card Custom Avatar")
 
@@ -108,7 +108,7 @@ To create and configure the object storage bucket using the OCI console, visit t
 1. Create the bucket named `codecard-avatar` by following the section "To create a bucket"
 2. Set the bucket as public, by following the section "To change the visibility of a bucket"
 
-Copy the background template bitmap `../codecard-avatar/images/identicon_bg.bmp` to the `codecard-avatar` bucket.
+Copy the background template bitmap `../codecard-avatar/images/background/identicon_bg.bmp` to the `codecard-avatar` bucket.
 
 For guidance on the process using the OCI console, visit the product documentation [here](https://docs.cloud.oracle.com/en-us/iaas/Content/Object/Tasks/managingobjects.htm), and follow the section "To upload objects to a bucket or folder".
 
@@ -425,3 +425,11 @@ Response:
   bytes read 139530
 Shuting down...
 ```
+
+Once completed, the custom bitmap will be output to the e-paper display.  
+
+The bitmap file is also available for download from the object storage bucket:
+
+![alt text](images/identicon_bg_JoCi.bmp "Custom .bmp file")
+
+
