@@ -39,9 +39,7 @@ Next, with the gathered artefacts the function proceeds to assemble the id-badge
 
 This implementation instruction describes the process for implementing each of the following solution components, including object storage, avatar generation serverless function, and API gateway.
 
-*This work instruction assumes that you will be utilising the shared [Code Card Designer](http://bit.ly/2PdOiU1) mobile application, and the associated back-end platform hosted at: `https://apex.oracle.com/pls/apex/appslab/functions/master`.*
-
-*If you would like to build and host your own Code Card back-end, check out the work instruction over [here](https://learncodeshare.net/2020/01/29/use-ords-to-run-the-codecard-backend-on-your-own-free-oracle-cloud-database/).*
+*This work instruction assumes that you will be utilising the shared [Code Card Designer](http://bit.ly/2PdOiU1) mobile application, and the associated back-end platform hosted at: `https://apex.oracle.com/pls/apex/appslab/functions/master`. If you would like to build and host your own Code Card back-end, check out the work instruction over [here](https://learncodeshare.net/2020/01/29/use-ords-to-run-the-codecard-backend-on-your-own-free-oracle-cloud-database/).*
 
 Resources referenced in this tutorial will be named as follows:
 
