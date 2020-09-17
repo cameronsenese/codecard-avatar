@@ -13,7 +13,7 @@ The Code Card avatar serverless function transforms your Code Card into an aweso
 
 The function is designed to assemble and display a bitmap image which includes a unique card-owner identicon that's generated on-the-fly via a 3rd party API, and is based on a hash of the card owner's name.
 
-Apart from turning your Code Card into a personalized id-badge - and it's a great reference for building an Oracle function that interracts with a range of OCI services, external services, and the Code Card IoT device.
+Apart from turning your Code Card into a personalized id-badge - the function is a great reference for building an Oracle function from a custom container image which interracts with a range of OCI services, external services, and the Code Card IoT device.
 
 ## Overview
 
