@@ -430,6 +430,5 @@ Once completed, the custom bitmap will be output to the e-paper display.
 
 The bitmap file is also available for download from the object storage bucket:
 
-![alt text](images/identicon_bg_JoCi.png "Custom .bmp file")
-
+![alt text](images/identicon_bg_JoCi.bmp "Custom bitmap file")
 
