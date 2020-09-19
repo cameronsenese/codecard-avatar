@@ -28,7 +28,7 @@ The avatar function is implemented as an Oracle Function (i.e. an OCI managed se
 In reference to the workflow illustration, there are two main elements to the workflow:
 
 1. During the "Configure" phase, the Code Card is configured using the Code Card Configurator mobile application (here the Code Card unique ID and owner's name are registered in a database table hosted on Oracle APEX)
-2. During the "Run" phase, the avatar function is then invoked by the Code Card via API Gateway, which initiates a a series of interactions with:
+2. During the "Run" phase, the avatar function is then invoked by the Code Card via API Gateway, which initiates a series of interactions with:
 
    - the Code Card designer APEX backend
    - the identicon generation web service (http://identicon-1132.appspot.com)
